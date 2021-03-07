@@ -1,4 +1,4 @@
-[CuteXterm](cutexterm.png)
+![CuteXterm](cutexterm.png)
 
 ## What is CuteXterm?
 
@@ -10,7 +10,7 @@ and configuration defaults (Xresources, xinitrc, terminfo, application desktop
 file, shell commands) that together make xterm cute and functional.
 
 This way, you can get something like that when you run tmux-sixel inside it:
-[cutexterm_tmux-sixel.png](cutexterm_tmux-sixel.png)
+![cutexterm_tmux-sixel.png](cutexterm_tmux-sixel.png)
 
 ## What is the difference over say gnome-terminal or even just xterm?
 
