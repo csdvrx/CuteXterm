@@ -1,0 +1,3 @@
+[submodule "tabbed"]
+	path = tabbed
+	url = https://git.suckless.org/tabbed

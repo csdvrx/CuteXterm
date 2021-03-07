@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=Terminal
+GenericName=Terminal
+Comment=xterm with all the right options
+#Exec=tabbed -c -g 3188x2100 xterm -fa 'Iosevka SS04 Light' -into
+Exec=tabbed -n xterm -c xterm -fa 'Iosevka SS04 Light' -into
+Terminal=false
+Type=Application
+#Encoding=UTF-8
+Icon=org.gnome.Terminal
+Categories=System;TerminalEmulator;
+Keywords=shell;prompt;command;commandline;cmd;
+X-Desktop-File-Install-Version=0.24
+Comment=Use the command line
+#Actions=new-window;preferences;
+#
+#[Desktop Action new-window]
+#Name=New Window
+#Exec=gnome-terminal --window
+#
+#[Desktop Action preferences]
+#Name=Preferences
+#Exec=gnome-terminal --preferences

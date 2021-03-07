@@ -125,16 +125,20 @@ Until someone perpare some packages, the installation is manual:
 5. Put tabbed/tabbed in /usr/local/bin ideally after recompiling it
 6. Install xpropr and xdotool then put at the bottom of your .zshrc or .bashrc:
 
+```{bashrc}
 	# No Ctrl-C, instead use Ctrl-X to stop
 	stty intr ^X stop undef start undef rprnt undef discard undef swtch undef -ixoff -ixon
 
 	# Remove the terminal titlebar
 	[ ${TERM} = "xterm-new" ] && \
 	  xprop -id `xdotool getactivewindow` -format _MOTIF_WM_HINTS 32i -set _MOTIF_WM_HINTS 2
+```
 
 You are then ready and there's no need to reboot: to load these defaults, simply type:
 
+```{xrdb .Xresources}
 	xrdb .Xresources
+```
 
 You can then start xterm from your menu.
 
